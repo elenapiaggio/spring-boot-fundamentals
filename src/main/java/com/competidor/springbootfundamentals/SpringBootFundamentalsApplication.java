@@ -19,6 +19,7 @@ public class SpringBootFundamentalsApplication {
         System.out.println("Hello from pluralsight!!!");
     }
 
+    /**
     @Bean
     public CommandLineRunner demo(ApplicationRepository repository) {
         return (args) -> {
@@ -30,6 +31,6 @@ public class SpringBootFundamentalsApplication {
                 log.info("The application is: " + application.toString());
             }
         };
-    }
+    } **/
 
 }
